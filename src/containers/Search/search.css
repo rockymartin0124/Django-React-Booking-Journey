@@ -1,0 +1,235 @@
+.select-area {
+	height: 45vh;
+	min-height: 45vh;
+}
+
+.page-title {
+	font-size: 1.5rem;
+}
+.filter-label {
+	font-size: 18px;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+/* select box style */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background-image: url(/static/images/expandArrow.png);
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-position-y: 8px;
+	/* padding-left:50px; */
+}
+/* 
+#category {
+	border: none;
+	font-size: 14px;
+	width: 60px;
+	color: rgba(0, 0, 0, 0.7);
+} */
+
+.tag-area {
+	background: #ccc;
+	width: 100%;
+	border: 1px solid #555555;
+	background-color: white;
+	border-radius: 4px;
+	height: 130px;
+}
+
+.clear {
+	cursor: default;
+	font-size: 0.8rem;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+	color: #fff;
+	border-color: #00daf8 !important;
+	background-color: #00daf8 !important;
+}
+
+.custom-control-label {
+	width: 100%;
+}
+
+.title-underline {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.select-box {
+	position: relative;
+	border: 1px solid #555555;
+	border-radius: 5px;
+	width: 22%;
+	min-width: 150px;
+}
+
+.select-header-title {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.select-title-underline {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.select-item-name {
+	font-size: 1rem;
+	margin-bottom: 0;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-group {
+	width: 100%;
+	height: 2rem;
+}
+
+.btn-group .btn {
+	font-size: 1rem;
+	font-weight: 400;
+	background-color: #f5f5f5;
+	color: #555555;
+	border: 1px solid #555555;
+	cursor: 'default';
+}
+
+.btn-group .btn.clicked {
+	background-color: #00daf8;
+	color: #fff;
+}
+
+.item-spacing {
+	padding-bottom: 2.5rem;
+}
+
+.date-range-btn {
+	width: 100%;
+	height: 2rem;
+	border-radius: 4px;
+	border: 1px solid #555555;
+	font-size: 0.7rem;
+	background-color: #f5f5f5;
+}
+
+.tags {
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	width: 100%;
+	border: 1px solid #555555;
+	height: 2rem;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	color: rgba(0, 0, 0, 0.7);
+	padding-left: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background-image: url(/static/images/expandArrow.png);
+	background-repeat: no-repeat;
+	background-position-x: 98%;
+	background-position-y: 50%;
+}
+
+.custom-dropDownMenu {
+	position: absolute;
+	width: 100% !important;
+	top: 2rem;
+	z-index: 10;
+	border: 1px solid #555555 !important;
+	background-color: #fefefe !important;
+	border-radius: 4px;
+	margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+	background-color: #02529b !important;
+	color: white !important;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+	width: 6px !important;
+}
+
+.ps__rail-y {
+	width: 0px !important;
+}
+
+.daterangepicker .drp-selected {
+	padding-right: 3rem !important;
+}
+
+.custom-checkbox:hover {
+	background-color: #ebfaff !important;
+}
+
+.custom-checkbox {
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+
+.tagList-heading {
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+/* Results list */
+
+.list-box {
+	border: 1px solid #555555;
+	border-radius: 5px;
+	width: 76%;
+	min-width: 600px;
+}
+
+.showMoreBtn {
+	border: 1px solid #555555;
+	background-color: #e5e5e5;
+	color: #555555;
+	font-size: 1rem;
+}
+
+.tag-select-done-btn {
+	cursor: default;
+	background-color: #00daf8;
+	border-radius: 10px;
+	color: white;
+	font-size: 0.75rem;
+	height: 24px;
+	float: right;
+	font-weight: bold;
+}
+
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+	/* transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+	transition: none !important;
+}
+
+.applyButton {
+	background-color: #02529b !important;
+	color: white !important;
+}
+
+.cancelButton {
+	background-color: #6c757d !important;
+	color: white !important;
+}
+
+

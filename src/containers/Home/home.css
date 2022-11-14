@@ -1,0 +1,172 @@
+html {
+	height: 100vh;
+}
+
+body {
+	min-width: 500px;
+}
+
+/* header */
+.header {
+	height: 30vh;
+}
+
+.bg-img {
+	/* The image used */
+	background-image: url('/static/images/desert.jpg');
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Needed to position the navbar */
+	position: relative;
+}
+
+.logo img {
+	width: 15vw;
+	margin-top: 5px;
+	min-width: 150px;
+	max-width: 210px;
+}
+
+/* Navbar links */
+.topnav {
+	overflow: hidden;
+	background-color: none;
+	padding-top: 20px;
+}
+
+.topnav a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+	color: black;
+}
+
+.notify {
+	font-size: 2rem;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-right: 30px;
+	visibility: visible;
+}
+
+.notify-wrapper {
+	padding-left: 55px;
+}
+
+/* main body */
+.form-card {
+	min-height: 500px;
+	height: 70vh;
+}
+
+.br-card {
+	border-radius: 2.5rem;
+	height: 90%;
+}
+
+.circle-field {
+	position: relative;
+	max-width: 100%;
+}
+
+/* font */
+.font-weight-medium {
+	font-weight: 600;
+}
+
+/* responsive breakpoints */
+
+@media only screen and (max-width: 600px) {
+	html,
+	body {
+		font-size: 10px;
+	}
+	.form-card {
+		height: 45vh;
+	}
+	.br-card {
+		max-width: 350px;
+		min-height: max-content;
+		/* min-width: 300px; */
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	html,
+	body {
+		font-size: 10px;
+	}
+	.form-card {
+		height: 50vh;
+	}
+	.br-card {
+		max-width: 400px;
+		min-height: max-content;
+		/* min-width: 350px; */
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	html,
+	body {
+		font-size: 12px;
+	}
+	.form-card {
+		height: 55vh;
+	}
+	.br-card {
+		max-width: 450px;
+		min-height: max-content;
+		/* min-width: 400px; */
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	html,
+	body {
+		font-size: 14px;
+	}
+	.br-card {
+		max-width: 519px;
+	}
+	.form-card {
+		min-height: 560px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	html,
+	body {
+		font-size: 16px;
+	}
+}
+
+._3bAl3 {
+	width: 100% !important;
+}
+
+._2MD0k {
+	display: flex;
+}
+
+.font-greeting {
+	font-size: 4rem;
+	padding-top: 6.25rem;
+}
+
+.back-forward-arrow {
+	width:1.8rem;
+	cursor:pointer;
+}
